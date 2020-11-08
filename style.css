@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.header{
+	background-image: url(img/11.png);
+	height: 900px;
+	background-size: cover;
+}
+.header nav{
+	
+	display: flex;
+
+}
+.header nav ul{
+	
+	padding-left: 57px;
+}
+.header nav i{
+	   
+font-size: 20px;
+    margin-top: 68px;
+    /* margin-right: 20px; */
+    padding-right: 20px;
+    color: white;
+}
+.header nav ul li a{
+	 font-size: 26px;
+    padding-top: 57px;
+    margin-right: 20px;
+    color: white;
+}
+.header h1{
+	font-size: 170px;
+    color: white;
+    margin-top: 170px;
+    font-family: 'Pacifico', cursive;
+}
+
+/*2nd section*/
+
+.wwa{
+	width: 100%;
+}
+.wwa .about{
+	float: left;
+	width: 40%;
+}
+
+.wwa .about h3{
+	color: #98774f;
+    margin-bottom: -5px;
+}
+.wwa .about h1{
+	font-size: 60px;
+    margin-bottom: 40px;
+}
+.wwa .about p{
+	font-size: 20px;
+}
+.wwa .about h2{
+	    margin-top: 60px;
+	    font-family: 'Rouge Script', cursive;
+	    font-size: 100px;
+}
+.wwa .row .col-lg-3{
+	margin: 22px;
+}
+.wwa .row .col-lg-3 i{
+	font-size: 45px;
+    color: #98774f;
+    padding-left: 10px;
+}
+.wwa .row .col-lg-3 h5{
+	padding-top: 10px;
+}
+.wwa .row .col-lg-3 p{
+	padding-top: 10px;
+}
+
+.products{
+	background-image: url(img/pro.jpeg);
+	height: 900px;
+	background-size: cover;
+	color: white;
+}
+.products h6{
+	padding-top: 130px;
+	font-size: 21px;
+	color: #98774f;
+}
+.products h1{
+	font-size: 62px;
+    color: white;
+    margin-top: 0px;
+    font-family: 'Pacifico', cursive
+}
+.products nav ul li a{
+	color: white;
+}
+.products nav ul li a:hover{
+	text-decoration: underline;
+	color: #98774f;
+}
+.products nav{
+	margin: 11px 350px;
+    font-size: 25px; 
+}
+
+.cart .row .card{
+	margin: 10px;
+}
+
+/*delivery*/
+
+.deliv-info{
+	margin-top: 50px;
+	background-image: url(img/map1.jpg);
+	background-size: cover;
+	margin-bottom: 70px;
+}
+.deliv-info h1{
+	font-weight: 900;
+}
+.deliv-info h2{
+	color: #98774f;
+}
+.deliv-info a{
+	color: black;
+	font-weight: 600;
+
+}
+.deliv-info .btn{
+	background-color:  #98774f;
+	color: white;
+	margin-top: 30px
+}
+.deliv-info .btn:hover{
+	background-color: black;
+	color: white;
+	}
+
+/* our customer*/
+
+.cus-data{
+	background-image: url(img/coffee1.jpg);
+	background-size: cover;
+	    height: 470px;
+	margin-top: 70px;
+}
+.cus-data span{
+	font-size: 150px;
+    font-weight: 800;
+    color: #98774f;
+}
+.cus-data h2{
+	margin-bottom: -33px;
+    font-weight: 700;
+}
+.cus-data h1{
+	font-size: 57px;
+    font-weight: 900;
+}
+.cus-data .btn{
+	background-color:  #98774f;
+	color: white;
+	margin-top: 30px
+}
+.cus-data .btn:hover{
+	background-color: black;
+	color: white;
+	}
+
+/*slider*/
+
+.carousel .carousel-caption {
+	padding-bottom: 150px;
+	width: 600px;
+	margin-left: 160px;
+}
+
+.carousel .carousel-caption .brdr{
+	border: 10px solid white;
+	padding: 40px;
+}
+
+.carousel .d-block{
+	position: relative;
+}
+.carousel .colored-bg{
+	background-color: black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    opacity: 0.5;
+}
+
+
+/*the rest*/
+.logos{
+	background-image: url("img/logos.png");
+	background-size: cover;
+	height: 200px;
+}
+
+/*discount*/
+.discount{
+	margin-top: 50px;
+}
+.discount .row .col-lg-6{
+	background-color: whitesmoke;
+}
+.discount .row .col-lg-6 h5{
+	color: #a08a61;
+	padding-top: 80px;
+}
+.discount .row .col-lg-6 h1{
+	font-weight: 700;
+}
+.discount .row .col-lg-6 img{
+	width: 250px;
+    height: 139px;
+}
+.discount .row .col-lg-6 p{
+	padding: 20px;
+}
+.discount .row .col-lg-6 button{
+	background-color: #a08a61;
+    width: 150px;
+    height: 47px;
+    margin: 25px;
+}
+.discount .row .fill img{
+	width: 100%;
+	height: 100%;
+}
+
+/*blog*/
+.blog{
+	background-image: url("img/blog.jpeg");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+}
+.blog h5{
+	color: #a08a61;
+	padding-top: 40px;
+	font-size: 23px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.blog h1{
+	font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 1px;	
+}
+
+/*explore footer*/
+
+.explore-contact .row .explore i{
+	color: #a08a61;
+	padding-top: 30px;
+}
+.explore-contact .row .explore span{
+	color: white;
+	padding: 8px;
+}
+.explore-contact .row .contact-us i{
+	color: #a08a61;
+	padding-top: 50px;
+}
+.explore-contact .row .contact-us i span{
+	color: white;
+	padding-left: 7px;
+}
+.explore-contact .row h5{
+	margin: auto;
+	padding-top: 20px;
+	font-family: 'Indie Flower', cursive;
+	color: #adadad;
+	font-size: 38px;
+	padding-bottom: 20px;
+}
+
